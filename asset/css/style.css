@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
 body {
   background: url("../image/matrix.gif") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -6,8 +8,24 @@ body {
   background-size: cover;
   }
 
+  *{
+    font-family: 'Fascinate Inline', cursive;
+  }
+
   #video-games {
     width: 70%;
+  }
+
+  .display-4 {
+    color: aliceblue;
+  }
+
+  .lead {
+    color: aliceblue;
+  }
+
+  #jumbotron {
+    margin-left: 500px;
   }
 
   .vg-item {
@@ -19,12 +37,20 @@ body {
     float: right;
     width: 30%;
     padding: 20px;
+    
   }
   
   label {
     display: block;
     margin-bottom: 10px;
     font-weight: 700;
+  }
+  
+  #vg-form {
+    float: right;
+    width: 30%;
+    padding: 20px;
+    color: whitesmoke;
   }
   
   input[type="text"] {
